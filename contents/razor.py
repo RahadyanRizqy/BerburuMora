@@ -119,14 +119,16 @@ score_text_fg = cnv.create_text(5, 0, text=f'Skor: {score}', fill="white", font=
 
 def addscore():
     global score
-    global score_text
+    global score_text_bg
+    global score_text_fg
     score += 1
     cnv.itemconfigure(score_text_bg, text=f'Skor: {score}')
     cnv.itemconfigure(score_text_fg, text=f'Skor: {score}')
 
 def showscore():
     global score
-    global score_text
+    global score_text_bg
+    global score_text_fg
     cnv.itemconfigure(score_text_bg, state=HIDDEN)
     cnv.itemconfigure(score_text_fg, state=HIDDEN)
     if score == 10:
