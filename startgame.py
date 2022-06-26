@@ -19,9 +19,6 @@ program.geometry(f"{w}x{h}+{pos_right}+{pos_top-50}")
 cnv = Canvas(program, width=w, height=h)
 cnv.pack()
 
-def fn():
-    pass
-
 buttonFont = Font(family='Impact', size=20)
 btn = Button(program, text='Mulai Game!', font=buttonFont, width=15, height=1, bd='5', command=program.destroy, anchor=CENTER, fg="black")
 
