@@ -155,7 +155,6 @@ def start():
         while True:
             p = cnv.bbox(char.prop)
             coll = cnv.find_overlapping(p[0], p[1], p[2], p[3])
-            print(coll)
             if char.coords()[0] >= w-char.xbrake() or char.coords()[0] < 0:
                 charx_speed = -charx_speed
             if char.coords()[1] >= h-char.ybrake()-25 or char.coords()[1] < 0:
