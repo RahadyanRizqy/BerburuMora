@@ -29,10 +29,10 @@ def score_statement():
     if score == 30:
         cnv.create_text(w/2+2, (h-150)/2+2, text=f'Skormu adalah {score}! Skor terbaik', fill="black", font=('Impact', 30), anchor=CENTER)
         cnv.create_text(w/2, (h-150)/2, text=f'Skormu adalah {score}! Skor terbaik', fill="white", font=('Impact', 30), anchor=CENTER)
-    elif 25 <= score <= 30:
+    elif 20 <= score <= 30:
         cnv.create_text(w/2+2, (h-150)/2+2, text=f'Skormu adalah {score}! Tetap semangat', fill="black", font=('Impact', 30), anchor=CENTER)
         cnv.create_text(w/2, (h-150)/2, text=f'Skormu adalah {score}! Tetap semangat', fill="white", font=('Impact', 30), anchor=CENTER)
-    elif 10 <= score <= 25:
+    elif 0 <= score <= 20:
         cnv.create_text(w/2+2, (h-150)/2+2, text=f'Skormu {score}! Sulit ya? Sama aku juga kok wkwk!', fill="black", font=('Impact', 20), anchor=CENTER)
         cnv.create_text(w/2, (h-150)/2, text=f'Skormu {score}! Sulit ya? Sama aku juga kok wkwk!', fill="white", font=('Impact', 20), anchor=CENTER)           
     else:
