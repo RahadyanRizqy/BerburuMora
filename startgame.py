@@ -4,6 +4,8 @@ from time import *
 
 w, h = 600, 600
 
+#added
+
 program = Tk()
 program.resizable(width = False, height = False)
 program.title("Mulai Game")
