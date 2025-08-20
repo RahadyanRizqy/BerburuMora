@@ -4,7 +4,7 @@ from time import *
 
 w, h = 600, 600
 
-#added
+#removed
 
 program = Tk()
 program.resizable(width = False, height = False)
